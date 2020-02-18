@@ -3,7 +3,7 @@ const COMMANDS = {
   help:
     'Supported commands: <span class="code">about</span>, <span class="code">experience</span>, <span class="code">education</span>, <span class="code">skills</span>, <span class="code">contact</span>',
   about:
-    "Hello 👋<br>I'm Jatin Rao. I’m a 15 yr old web developer currently living in India. I have a burning passion to want and help others with code that I create. I enjoy the limitless potential of impact that I can have with what I build. It is what pushes me every day to become a better developer. Outside of coding, you can find me eating choclates!",
+    "Hello 👋<br>I'm Jaafar Melhem. I’m a 22 years old full stack developer currently living in Lebanon. I have a burning passion to want and help others with code that I create. I enjoy the limitless potential of impact that I can have with what I build. It is what pushes me every day to become a better developer. Outside of coding, you can find me eating choclates!",
   skills:
     '<span class="code">Languages:</span> Python, HTML, CSS, JavaScript<br><span class="code">Technologies:</span> Git, SQL<br><span class="code">Frameworks:</span> React.js, Vue.js, Django',
   education:
