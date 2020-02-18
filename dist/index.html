@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Portfolio - Type help</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section class="hero is-fullheight">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-3 is-flex">
+          <div class="column-child sidebar shadow">
+            <div class="sidebar-header has-text-centered">
+              <img
+                src="http://4.bp.blogspot.com/-lKRmImHEnnQ/XkfOtD-6FZI/AAAAAAAAAxQ/u9vAJ0bhuMsrA_NEZYsmF-0FzOovWLHiQCK4BGAYYCw/s320/Avatar.png"
+                class="sidebar-image">
+              <h2 class="header-name">Jaafar Melhem</h2>
+              <h5>Web Developer</h5>
+              <div class="social-icons">
+                <a href="https://facebook.com/jatin.rao.51"><i class="fab fa-facebook icon"></i></a>
+                <a href="https://twitter.com/jatinn_r"><i class="fab fa-twitter icon"></i></a>
+                <a href="https://www.linkedin.com/in/jatinrao/"><i class="fab fa-linkedin icon"></i></a>
+                <a href="https://instagram.com/jatin.codes."><i class="fab fa-instagram icon"></i></a>
+                <a href="https://github.com/jatin2003"><i class="fab fa-github icon"></i></a>
+              </div>
+              <div class="resume">
+                <a href="./resume.pdf" class="sidebar-link">
+                  Resume
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-flex">
+          <div class="column-child terminal shadow">
+            <div class="terminal-bar dark-mode">
+              <div class="icon-btn close"></div>
+              <div class="icon-btn min"></div>
+              <div class="icon-btn max"></div>
+              <div class="terminal-bar-text is-hidden-mobile dark-mode-text">guest@jatin: ~</div>
+            </div>
+            <div class="terminal-window primary-bg" onclick="document.getElementById('dummyKeyboard').focus();">
+              <div class="terminal-output" id="terminalOutput">
+                <div class="terminal-line">
+                  <span class="help-msg">Welcome to jatin portfolio — Type <span class="code">help</span>
+                    for a list of supported commands.</span>
+                </div>
+              </div>
+              <div class="terminal-line">
+                <span class="success">➜</span> <span class="directory">~</span> <span class="user-input"
+                  id="userInput"></span>
+                <input type="text" id="dummyKeyboard" class="dummy-keyboard">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        Made with <i class="fas fa-heart icon"></i> by Jatin Rao.
+      </p>
+    </div>
+  </footer>
+</section>
+<!-- partial -->
+  <script src='https://use.fontawesome.com/releases/v5.3.1/js/all.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
